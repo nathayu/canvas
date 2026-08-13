@@ -64,7 +64,12 @@
 
 	&.disabled {
 		opacity: 0.5;
+		color: carbon.$text-secondary;
 		cursor: not-allowed;
+
+		& svg {
+			color: carbon.$text-secondary;
+		}
 	}
 
 	&:active,
